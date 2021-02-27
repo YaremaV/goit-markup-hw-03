@@ -29,6 +29,8 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -47,13 +49,20 @@ a {
   color: var(--praimary-text-color);
 }
 
-/* HEADER*/
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 
-.header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
+  border: 1px solid red;
 }
+
+.section {
+  margin-bottom: 94px;
+}
+
+/* HEADER*/
 
 .web {
   color: var(--accent-color);
@@ -102,6 +111,8 @@ a {
 }
 
 .text {
+  margin: 0;
+
   color: var(--title-text-color);
 
   font-weight: 400;
@@ -112,7 +123,17 @@ a {
 
 /*HERO*/
 
+.hero {
+  background-color: var(--back-color);
+  margin-bottom: 94px;
+
+  text-align: center;
+}
+
 .hero .title {
+  margin: 0;
+  padding: 200px 251px 30px 251px;
+
   color: var(--white-color);
   background-color: var(--back-color);
 
@@ -120,11 +141,16 @@ a {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .button {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin-bottom: 200px;
+
   color: var(--white-color);
   background-color: var(--accent-color);
 
@@ -135,13 +161,12 @@ a {
   cursor: pointer;
 }
 
-.team {
-  background-color: var(--backgroundcolor-team);
-}
-
-/* Перечень качеств */
+/* Список качеств */
 
 .section .title {
+  margin: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -149,7 +174,16 @@ a {
   text-transform: uppercase;
 }
 
+/* Наша команда*/
+
+.team {
+  background-color: var(--backgroundcolor-team);
+}
+
 .team .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -157,11 +191,18 @@ a {
 }
 
 .suptitle {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team .text {
+  margin-bottom: 30px;
 }
 
 /* FOOTER */
@@ -170,6 +211,7 @@ a {
 }
 
 .footer .studio {
+  display: inline-block;
   color: var(--white-color);
 
   font-family: "Raleway", sans-serif;
@@ -199,8 +241,20 @@ a {
   letter-spacing: 0.03em;
 }
 
+.logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.add {
+  margin-bottom: 60px;
+}
+
 /* Портфолио */
 .portfolio .title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -208,10 +262,17 @@ a {
 }
 
 .portfolio .text {
+  margin-bottom: 20px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.buttons {
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .btn {
