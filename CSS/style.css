@@ -252,9 +252,14 @@ a {
 }
 
 /* Портфолио */
-/* .portfolio {
-  text-align: center;
-} */
+
+.portfolio {
+  top: 80px;
+
+  border: 1px solid #ececec;
+
+  /* text-align: center; */
+}
 
 .portfolio .title {
   margin-top: 20px;
