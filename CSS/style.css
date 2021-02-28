@@ -55,7 +55,7 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .section {
@@ -178,6 +178,7 @@ a {
 
 .team {
   background-color: var(--backgroundcolor-team);
+  /* margin-bottom: 30px; */
 }
 
 .team .title {
@@ -202,7 +203,7 @@ a {
 }
 
 .team .text {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* FOOTER */
@@ -242,15 +243,19 @@ a {
 }
 
 .logo {
-  margin-top: 60px;
-  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .add {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 /* Портфолио */
+/* .portfolio {
+  text-align: center;
+} */
+
 .portfolio .title {
   margin-top: 20px;
   margin-bottom: 4px;
