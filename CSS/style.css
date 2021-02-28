@@ -296,6 +296,7 @@ a {
 
   cursor: pointer;
   text-align: center;
+  border-radius: 4px;
 }
 
 .btn:hover,
