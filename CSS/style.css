@@ -43,6 +43,9 @@ a {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .active:hover,
 .active:focus {
@@ -122,6 +125,9 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .nav:hover,
 .nav:focus {
@@ -322,11 +328,7 @@ a {
 /* Портфолио */
 
 .portfolio {
-  /* top: 80px; */
-
   border-top: 1px solid #ececec;
-
-  /* text-align: center; */
 }
 
 .portfolio .title {
