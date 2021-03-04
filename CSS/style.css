@@ -180,16 +180,16 @@ img {
 .hero {
   background-color: var(--back-color);
   margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 280px;
 
   text-align: center;
 }
 
 .hero .title {
-  margin: 0;
-  padding: 200px 251px 30px 251px;
+  margin-bottom: 30px;
 
   color: var(--white-color);
-  background-color: var(--back-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -203,7 +203,6 @@ img {
   text-align: center;
   padding: 10px 32px;
   border-radius: 4px;
-  margin-bottom: 200px;
 
   color: var(--white-color);
   background-color: var(--accent-color);
