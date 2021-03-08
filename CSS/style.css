@@ -263,13 +263,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .suptitle-list .item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* Наша команда*/
@@ -302,8 +302,7 @@ img {
 }
 
 .container-team {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 15px;
   text-align: center;
 
   background-color: var(--white-color);
@@ -447,9 +446,9 @@ img {
   margin: 15px;
   width: 370px;
 }
-.list .items:nth-child(3n) {
+/* .list .items:nth-child(3n) {
   margin-right: 0;
-}
+} */
 /* .list .items:nth-last-child(-n + 3) {
   margin-bottom: 18px;
 } */
